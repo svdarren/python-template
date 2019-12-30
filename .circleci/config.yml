@@ -50,8 +50,11 @@ jobs:
           command: |
             pipenv run test
 
+      - store_test_results:
+          path: /tmp/test-results
+
       - store_artifacts:
-          path: test-reports
+          path: /tmp/test-reports
           destination: test-reports
 
   keysearch:
