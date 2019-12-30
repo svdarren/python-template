@@ -4,9 +4,9 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
-jupyterlab = "*"
-jupyterlab-git = "*"
 trufflehog = "==2.*"
+pytest = "*"
+pytest-cov = "*"
 
 [packages]
 
