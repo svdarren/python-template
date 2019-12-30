@@ -15,4 +15,4 @@ python_version = "3.7"
 
 [scripts]
 scan = 'bash .circleci/test_secretkeys.sh'
-test = 'python -m pytest --junitxml=/tmp/test-results/pytest.xml'
+test = 'pytest  --junitxml=/tmp/test-results/pytest.xml --cov=src --cov-branch --cov-report=xml:DEST:/tmp/test-results/coverage.xml'
