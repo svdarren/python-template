@@ -108,8 +108,8 @@ jobs:
           path: /tmp/test-results
 
       - store_artifacts:
-          path: /tmp/test-reports
-          destination: test-reports
+          path: /tmp/test-results
+          destination: test-results
 
 workflows:
   version: 2
